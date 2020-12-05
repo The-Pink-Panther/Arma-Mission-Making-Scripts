@@ -1,0 +1,3 @@
+driver (thislist select 0) addOwnedMine md1; driver (thislist select 0) action ["TouchOff", driver (thislist select 0)];
+driver (thislist select 0) addOwnedMine md2; driver (thislist select 0) action ["TouchOff", driver (thislist select 0)];
+driver (thislist select 0) addOwnedMine md3; driver (thislist select 0) action ["TouchOff", driver (thislist select 0)];

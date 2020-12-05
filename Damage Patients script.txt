@@ -1,0 +1,8 @@
+{
+    {
+        private _unit = _x;
+        {
+            [_unit, selectRandom[0.3,0.5,0.7,0.9], _x, selectrandom ["stab","bullet","falling"]] call ace_medical_fnc_addDamageToUnit;
+        } forEach ["LeftLeg","RightLeg","Body","Head","RightArm","LeftArm"];
+    } forEach units _x;
+} forEach [groupVarName1, groupVarName2];

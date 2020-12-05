@@ -1,0 +1,6 @@
+{ 
+    { 
+        private _unit = _x;                
+        _unit setUnitPos "middle"; 
+    } forEach units _x; 
+} forEach [groupVarName1,groupVarName2];

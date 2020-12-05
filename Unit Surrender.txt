@@ -1,0 +1,9 @@
+{
+    {
+        private _unit = _x;
+	[_unit, true]call ace_captives_fnc_setSurrendered;
+    } forEach units _x;
+} forEach [groupVarName1, groupVarName2];
+
+
+

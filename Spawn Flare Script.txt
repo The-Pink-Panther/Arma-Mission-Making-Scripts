@@ -1,0 +1,4 @@
+private _position = getPos player vectorAdd [0, 0, 220];
+private _flare = createVehicle ["F_40mm_White", _position, [], 0, "none"];
+
+_flare setVelocity [wind select 0, wind select 1, 30];
